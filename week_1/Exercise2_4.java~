@@ -1,0 +1,42 @@
+public class Exercise2_4 {
+    public static void main(String args[]) {
+        for ( int k = 0 ; k < 4 ; k++ ) {
+
+	    for ( int i = 9 ; i >= 0 ; i-- ) {
+
+		for ( int j = i ; j > 0 ; j-- ) {
+
+		    String i_str = "";
+
+		    if ( i == 0 ) {
+
+			switch (k) {
+
+			case 1 -> i_str = "One" ;
+
+			case 2 -> i_str = "One" ;
+
+			case 3 -> i_str = "One" ;
+
+			case 4 -> i_str = "One" ;
+
+			}
+
+		    } else {
+
+			i_str = String.toInteger(i)
+
+		    }
+
+		    System.out.print(i_str);
+
+		}
+	    
+	    }
+
+	    System.out.println();
+
+	}
+    }
+
+}
