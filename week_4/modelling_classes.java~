@@ -1,0 +1,19 @@
+superclass:
+animal
+
+subclasses:
+phylum types, incl. Chordata and Annelida
+
+attibutes that the superclass should contain:
+avg. weight: int
+avg. height: int
+avg. width:  int
+prey: 	     bool
+
+subclass attributes:
+chordata - subphyla type: int/tuple
+annelid -  segments: int
+
+public class Animal {
+
+}
